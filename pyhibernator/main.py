@@ -201,7 +201,7 @@ class CitationAngle:
             return (peak2>c_peak) & (angle2>angle_after) & (ac1<=c_before_average) & (t2-t1>=span)
 
 
-class CitationSpeed:
+class CitationDelay:
     """
     Based on Wang, J., Thijs, B., & Glänzel, W. (2015). Interdisciplinarity and impact: Distinct effects of variety, balance, and disparity. PloS one, 10(5), e0127298.
     """
@@ -217,7 +217,7 @@ class CitationSpeed:
         Returns:
         ----------
         float:
-            Score of Citation Speed
+            Score of Citation Delay
         """
         return 1 - np.sum((np.cumsum(c)/np.sum(c))[:-1])/(len(c)-1)
 

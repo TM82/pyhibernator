@@ -85,4 +85,5 @@ year: int
     - Compare bibliometric features of hibernators extracted in 1_ExtractHibernator.ipynb
 
 
-
+## License
+MIT
