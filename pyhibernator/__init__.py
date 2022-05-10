@@ -3,7 +3,7 @@ from pyhibernator.main import AdjustedGiniCoefficient, \
     BeautyCoefficient, \
     BeautyCoefficientCumulativePercentage, \
     CitationAngle, \
-    CitationSpeed, \
+    CitationDelay, \
     DNIC, \
     ExponentialQuartile, \
     KValue, \
