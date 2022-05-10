@@ -27,12 +27,12 @@ powerlaw 1.4.4(https://pypi.org/project/powerlaw/)
 #### Import Module
 
 ```
-git clone https://github.com/TM82/pyhibernator
+git clone git@github.com:TM82/pyhibernator.git
 pip install .
 ```
 or
 ```
-pip install git+https://github.com/TM82/pyhibernator
+pip install git+ssh://git@github.com/TM82/pyhibernator.git
 ```
 
 Then, you can use
