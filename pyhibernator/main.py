@@ -312,7 +312,6 @@ class ExponentialQuartile:
             Citation history, c[0] is the citation of publication year.
         k: int
             hyperparameter、smaller k means shorter sleep
-            peak
             
         Returns:
         ----------

@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='pyhibernator',
-    version='0.1.0',
+    version='1.0.0',
     license='MIT',
     description='A Python Module for extracting hibernator from bibliometric data. For further information, see - <paper.url(TBD)>',
 
