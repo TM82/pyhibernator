@@ -312,6 +312,7 @@ class ExponentialQuartile:
             Citation history, c[0] is the citation of publication year.
         k: int
             hyperparameter、smaller k means shorter sleep
+            peak
             
         Returns:
         ----------
@@ -322,8 +323,8 @@ class ExponentialQuartile:
         n = len(c)
         nw = int(n * 0.2)
         ns = n - nw
-        cs = np.max(c[:ns])
-        cw = np.max(c[ns:])
+        cs = np.mean(c[:ns])
+        cw = np.mean(c[ns:])
         return (cw > 4*cs) & (cw>(np.sqrt(k*ns)))
 
 
