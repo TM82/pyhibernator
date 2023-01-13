@@ -48,7 +48,7 @@ pyhibernator.Naive.extract(
 -> True
 ```
 
-For more detail usage, see analysis/1_ExtractHibernator.ipynb
+For more detail usage, see notebooks/1_ExtractHibernator.ipynb
 
 ### Analysis
 
