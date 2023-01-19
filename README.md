@@ -1,23 +1,15 @@
 # pyhibernator
 
-Corresponding paper: TBD
-
-#### Citation
-```
-TBD
-```
+Corresponding paper: https://doi.org/10.1016/j.joi.2023.101378
 
 #### Introduction
 
-This is the pyhibernator toolkit developed for extracting hibernators in science from bibliometric data. This toolkit covers 11 major hibernator extraction methods.
-```
-Contact: Takahiro Miura, miura@ipr-ctr.t.u-tokyo.ac.jp
-```
+This is the pyhibernator toolkit developed for extracting slow-cited papers in science from bibliometric data. This toolkit covers 11 major slow-cited papers extraction methods.
 
 ### Requirements
 
-#### Hibernator Extraction
-Python 3.8
+#### Slow-cited paper extraction
+Python 3.8, pandas, numpy
 
 #### Analysis
 powerlaw 1.4.4(https://pypi.org/project/powerlaw/)
@@ -78,12 +70,21 @@ year: int
 #### Main Analysis
 
 - 1_ExtractHibernator.ipynb
-    - Extract hibernators for 11 methods
+    - Extract slow-cited papers for 11 methods
     - 10 times montecarlo simulations
 
 - 2_Analysis.ipynb
     - Compare bibliometric features of hibernators extracted in 1_ExtractHibernator.ipynb
 
 
+#### Citation
+
+> Miura, T., Asatani, K. & Sakata, I. (2023). Revisiting the uniformity and inconsistency of slow-cited papers in science. Journal of Informetrics, 17(1), 101378. https://doi.org/10.1016/j.joi.2023.101378
+
+
 ## License
 MIT
+
+```
+Contact: Takahiro Miura, miura@ipr-ctr.t.u-tokyo.ac.jp
+```
