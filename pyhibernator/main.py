@@ -158,7 +158,7 @@ class BeautyCoefficientCumulativePercentage:
             c_untilmax = c[:tm_raw+1]
             c_relative = np.cumsum(c_untilmax)/np.sum(c_untilmax)
             c0,tm,ctm = _get_c0_tm_ctm(c_relative) #By definition, tm = len(c_relative)-1, ctm = 1
-            return sum([_calcBcp(ctm,c0,tm,c_relative[t],t) for st in range(tm+1)])
+            return sum([_calcBcp(ctm,c0,tm,c_relative[t],t) for t in range(tm+1)])
 
 
 class CitationAngle:
